@@ -1,0 +1,75 @@
+Version v0.0.1
+
+juicySoup--
+
+Web based data-scraper based off of python framework BeautifulSoup.
+Usage applcations include creating data sets for analysis in any HTML
+platform. Created to aid and assist the data mining process.
+
+********************
+
+Getting Started
+
+To start, set up a virtual environment with
+
+$ python3 -m venv venv 
+
+in your bash shell.
+
+
+Activate this shell with the command 
+
+$../venv/bin/activate
+
+and install BeautifulSoup4 
+
+$ pip install requests BeautifulSoup4
+
+
+If any errors occur due to not having pip run the command:
+
+$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+
+$ python get-pip.py
+
+Happy coding! 
+
+********************
+
+Built With:
+
+python3
+BeautifulSoup4
+
+********************
+
+Contributing
+
+Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+
+********************
+
+Versioning
+
+We use SemVer for versioning. 
+
+********************
+
+Authors
+
+Usman Zahid - Founder
+uzahid@ucsc.edu
+
+********************
+
+License
+
+This project is licensed under the MIT open-source license. See LICENSE.md for details.
+
+********************
+
+Acknowledgements
+
+This would not have been possible without the help of Colin OKeefe and Leonard Richardson
+
+******************** 
