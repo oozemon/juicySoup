@@ -17,7 +17,7 @@ import cProfile
 
 def diagnose(data):
     """Diagnostic suite for isolating common problems."""
-    print "Diagnostic running on Beautiful Soup %s" % __version__
+    print "version %s" % __version__
     print "Python version %s" % sys.version
 
     basic_parsers = ["html.parser", "html5lib", "lxml"]
